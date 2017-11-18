@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>CanvasTool</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.0.4/jscolor.js"></script>
+  <script type="text/javascript" src="canvas.js"></script>
+</head>
+
+<body>
+
+  <div style="float:right">
+
+    Draw rectangle
+    <input type="checkbox" id="checkboxDrawRectangle">
+
+    <br>Point color
+    <input id="colorPickerPoint" class="jscolor" value="d63e3e" style="width:80pt"> </input>
+
+
+    <br>Rectangle color
+    <input id="colorPickerRectangle" class="jscolor" value="3e7f2a" style="width:80pt"></input>
+
+  </div>
+
+  <canvas id="canvas" width="1000" height="500" style="cursor:crosshair;background:rgb(0, 0, 255)"></canvas>
+
+  <div id="text"></div>
+
+</body>
+
+</html>
